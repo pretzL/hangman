@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "buildcss": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/output.css",
-    "watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/output.css --watch & vite",
+    "watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/output.css --watch & live-server",
     "preview": "vite preview"
   },
   "dependencies": {
