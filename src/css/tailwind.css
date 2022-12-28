@@ -16,15 +16,15 @@
 }
 
 .body-bg {
-  background: url("./public/assets/landscape-background.png");
+  background: url("/src/resources/landscape-background.png");
 }
 
 .wood-bg {
-  background: center / contain url("./public/assets/882.jpg");
+  background: center / contain url("/src/resources/882.jpg");
 }
 
 .border-bg {
-  border-image: url("./public/assets/33421.jpg");
+  border-image: url("/src/resources/33421.jpg");
 }
 
 .keyboard-key:hover:not(:disabled),
