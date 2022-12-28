@@ -16,7 +16,7 @@
 }
 
 .body-bg {
-  background: url("/src/resources/landscape-background.png");
+  background: no-repeat url("/src/resources/landscape-background.png");
 }
 
 .wood-bg {
