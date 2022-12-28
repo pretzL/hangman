@@ -7,7 +7,7 @@
 }
 
 .keyboard-key.active {
-  background-color: hsl(200, 100%, 50%);
+  opacity: 0.3;
   color: white;
 }
 
