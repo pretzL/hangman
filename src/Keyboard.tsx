@@ -16,9 +16,9 @@ export function Keyboard({ disabled = false, activeLetters, inactiveLetters, add
         return (
           <button
             onClick={() => addGuessedLetter(key)}
-            className={`keyboard-key ${isActive ? "active" : ""} ${
+            className={`keyboard-key wood-bg border-bg ${isActive ? "active" : ""} ${
               isInactive ? "inactive" : ""
-            } w-full border-solid border-black border-2 aspect-square text-xl uppercase p-2 bold pointer text-black bg-transparent`}
+            } w-full border-solid border-black border-2 aspect-square text-xl uppercase p-2 bold pointer text-white bg-transparent`}
             key={key}
             disabled={isInactive || isActive || disabled}
           >
