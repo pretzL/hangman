@@ -619,10 +619,6 @@ video {
   width: 100px;
 }
 
-.w-\[220px\] {
-  width: 220px;
-}
-
 .w-\[250px\] {
   width: 250px;
 }
@@ -687,8 +683,16 @@ video {
   align-self: stretch;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .border-\[10px\] {
@@ -712,6 +716,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -723,6 +732,16 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-center {
@@ -743,9 +762,9 @@ video {
   text-transform: uppercase;
 }
 
-.text-black {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .filter {
@@ -765,7 +784,21 @@ video {
   opacity: 0.3;
 }
 
+.body-bg {
+  background: url("./src/assets/DALL·E\ 2022-12-28\ 13.12.28\ -\ Hand\ drawn\ cartoon\ style\ forest\ landscape\ background\ image\ for\ a\ game.png");
+}
+
+.wood-bg {
+  background: center / contain url("./src/assets/882.jpg");
+}
+
+.border-bg {
+  -o-border-image: url("./src/assets/33421.jpg");
+     border-image: url("./src/assets/33421.jpg");
+}
+
 .keyboard-key:hover:not(:disabled),
 .keyboard-key:focus:not(:disabled) {
   background-color: hsl(200, 100%, 75%);
+  background-image: none;
 }

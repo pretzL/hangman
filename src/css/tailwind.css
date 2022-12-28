@@ -15,7 +15,20 @@
   opacity: 0.3;
 }
 
+.body-bg {
+  background: url("./src/assets/DALL·E\ 2022-12-28\ 13.12.28\ -\ Hand\ drawn\ cartoon\ style\ forest\ landscape\ background\ image\ for\ a\ game.png");
+}
+
+.wood-bg {
+  background: center / contain url("./src/assets/882.jpg");
+}
+
+.border-bg {
+  border-image: url("./src/assets/33421.jpg");
+}
+
 .keyboard-key:hover:not(:disabled),
 .keyboard-key:focus:not(:disabled) {
   background-color: hsl(200, 100%, 75%);
+  background-image: none;
 }

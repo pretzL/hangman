@@ -63,8 +63,8 @@ function App() {
   });
 
   return (
-    <div className="flex max-w-[800px] flex-col gap-8 mx-auto my-0 items-center">
-      <div className="text-xl text-center">
+    <div className="flex max-w-[800px] flex-col gap-8 mx-auto my-0 items-center text-white">
+      <div className="text-xl text-center wood-bg border-bg py-2 px-4 rounded-lg">
         {isWinner && "Winner! Refresh to try again"}
         {isLoser && "Nice try. Refresh to try again"}
       </div>
