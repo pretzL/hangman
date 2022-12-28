@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.keyboard {
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+}
+
+.keyboard-key.active {
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+}
+
+.keyboard-key.inactive {
+  opacity: 0.3;
+}
+
+.keyboard-key:hover:not(:disabled),
+.keyboard-key:focus:not(:disabled) {
+  background-color: hsl(200, 100%, 75%);
+}
