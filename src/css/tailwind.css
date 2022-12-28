@@ -16,7 +16,10 @@
 }
 
 .body-bg {
-  background: center/100% no-repeat url("/src/resources/landscape-background.png");
+  background-image: url("/src/resources/landscape-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #d1c13e;
 }
 
 .wood-bg {
